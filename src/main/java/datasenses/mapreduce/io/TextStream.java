@@ -3,22 +3,15 @@ package datasenses.mapreduce.io;
 import java.io.BufferedReader;
 import java.io.DataInput;
 import java.io.DataInputStream;
-import java.io.DataOutput;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CodingErrorAction;
-
 import javax.activation.UnsupportedDataTypeException;
-
 import org.apache.commons.io.IOUtils;
-import org.apache.hadoop.io.MapFile;
-import org.apache.hadoop.io.MapFile.Reader;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.io.WritableUtils;
 
 public class TextStream extends Text {
 
