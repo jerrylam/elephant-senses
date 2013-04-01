@@ -1,0 +1,14 @@
+# Eclipse IDE
+.project
+.classpath
+
+# Maven
+target/
+release.properties
+dependency-reduced-pom.xml
+
+# *nix temporary files
+*~
+
+# Mac metadata
+.DS_Store
