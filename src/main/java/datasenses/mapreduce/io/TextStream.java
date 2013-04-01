@@ -13,6 +13,11 @@ import javax.activation.UnsupportedDataTypeException;
 import org.apache.commons.io.IOUtils;
 import org.apache.hadoop.io.Text;
 
+/**
+ * Stream support for {@link org.apache.hadoop.io.Text}
+ * @author JLam
+ *
+ */
 public class TextStream extends Text {
 
 	private final OutputStream out;
